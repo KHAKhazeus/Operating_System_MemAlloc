@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function(){
   $('.form-check-input').on('click', function () {
     console.log($(this).val())
     var value = $(this).val()
-    if(value == 'bestfit'){
+    if(value == 'Bestfit'){
       window.dynamic.removeAll()
       window.freedynamic.removeAll()
       window.cache = []
